@@ -22,7 +22,7 @@ $$
 # Example of Leontief function (perfect complements)
 
 $$
-F(K, L) = min\left\{\alpha K, \beta L \right \}
+F(K, L) = \min\left\{\alpha K, \beta L \right \}
 $$
 
 # CES Function
@@ -37,7 +37,7 @@ The production function $V = F(K,L)$ in capital version can be written as
 $$
 \frac{V}{L} = F\left(\frac{K}{L}, 1 \right)
 $$
-Let us start from $ln\frac{V}{L} = lna + blnw$
+Let us start from $\ln\frac{V}{L} = \ln a + b\ln w$
 
 where,
 
@@ -52,15 +52,15 @@ $$
 We can write
 
 $$
-lny = ln a + b ln [f(k) - kf'(k)]
+\ln y = \ln a + b \ln [f(k) - kf'(k)]
 $$
 Solving for $f'(k)$
 
 $$
 \begin{aligned}
-  &\ ln y - ln a = b ln [y - k f'(k)] \\
-  &\ ln \frac{y}{a} = b ln [y - k f'(k)] \\
-  &\ ln \left(\frac{y}{a} \right)^\frac{1}{b} = ln [y - k f'(k)] \\
+  &\ \ln y - \ln a = b \ln [y - k f'(k)] \\
+  &\ \ln \frac{y}{a} = b \ln [y - k f'(k)] \\
+  &\ \ln \left(\frac{y}{a} \right)^\frac{1}{b} = \ln [y - k f'(k)] \\
   &\ k f'(k) = y - \left(\frac{y}{a} \right)^\frac{1}{b} \\
   &\ k f'(k) = y - \frac{y^\frac{1}{b}}{a^\frac{1}{b}} \\
   &\ f'(k) = \frac{{a^\frac{1}{b}}y - y^\frac{1}{b}}{ka^\frac{1}{b}}\\
@@ -84,10 +84,10 @@ $$
 \begin{aligned}
    &\ \frac{dk}{k} = \frac{dy}{y(1 - \alpha y^\rho)}\\
    &\ \frac{dk}{k} = \frac{dy}{y} + \frac{\alpha y^{\rho-1}dy}{1 - \alpha y^\rho}\\
-   &\ ln k = ln y - \frac{1}{\rho} ln (1 - \alpha y^\rho) + \frac{1}{\rho} ln \beta
+   &\ \ln k = \ln y - \frac{1}{\rho} \ln (1 - \alpha y^\rho) + \frac{1}{\rho} \ln \beta
 \end{aligned}
 $$
-where $ln \beta$ is a constat term after indifinite integration. Take antilog on both sides and raise the power of $\rho$ to get 
+where $\ln \beta$ is a constat term after indifinite integration. Take antilog on both sides and raise the power of $\rho$ to get 
 
 $$
 k^\rho = \frac{\beta y^\rho}{1 - \alpha y^\rho}
