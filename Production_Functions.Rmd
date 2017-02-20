@@ -2,30 +2,33 @@
 title: "Production FUnctions"
 author: "Massimiliano"
 date: "20 febbraio 2017"
-output: pdf_document
+output: 
+  pdf_document:
+    number_sections: true
 ---
 
-#Example of CES function
-======================
+# Example of CES function
+
 $$
 F(K, L) = \left[\gamma K^\frac{(\sigma - 1)}{\sigma} + (1 - \gamma)L^\frac{(\sigma - 1)}{\sigma} \right]^\frac{\sigma}{\sigma - 1}
 $$
 
-#Example of Cobb-Douglas function
-=======================
+# Example of Cobb-Douglas function
+
 $$
 F(K, L) = K^\alpha L^\beta
 $$
 
-#Example of Leontief function (perfect complements)
-===========================
+# Example of Leontief function (perfect complements)
+
 $$
 F(K, L) = min\left\{\alpha K, \beta L \right \}
 $$
 
-#CES Function
-===============================
-##Form
+# CES Function
+
+## Form
+
 Following Chen (2011), we provide a proof of the form of CES function.
 For more details on CES function, read \href{http://www.aae.wisc.edu/aae705/References/Arrow_etal_1961.pdf}{Arrow et. al (1961)}
 
@@ -111,8 +114,8 @@ F(K, L) = (\beta K^{-\rho} + \alpha L)^\frac{-1}{\rho}
 $$  
 
 
-#References
-=======================
+# References {-}
+
 K. J. Arrow, H. B. Chenery, B. S. Minhas, R. M. Solow (1961). Capital-Labor Substitution and Economic Efficiency, \textit{The Review of Economics and Statistics}, Vol. 43, No. 3, pp. 225-250. 
 
 Weijie Chen (2011). CES functions and Dixit-Stiglitz Formulation, Department of Political and Economic Studies, University of Helsinki.
